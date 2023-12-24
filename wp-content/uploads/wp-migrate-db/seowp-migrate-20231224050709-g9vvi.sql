@@ -628,7 +628,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 
 #
@@ -652,7 +652,8 @@ INSERT INTO `wp_usermeta` ( `umeta_id`, `user_id`, `meta_key`, `meta_value`) VAL
 (15, 1, 'show_welcome_panel', '1'),
 (16, 1, 'session_tokens', 'a:1:{s:64:"dd680237303d6c1cbbc71cea8946729190556efad439cf2b37d1dbd49a456f11";a:4:{s:10:"expiration";i:1703485891;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:111:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";s:5:"login";i:1703313091;}}'),
 (17, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
-(18, 1, 'wpmdb_licence_key', '09ac7bba-a727-4ab9-a915-231625c780cf') ;
+(18, 1, 'wpmdb_licence_key', '09ac7bba-a727-4ab9-a915-231625c780cf'),
+(19, 1, 'wp_persisted_preferences', 'a:2:{s:14:"core/edit-post";a:2:{s:26:"isComplementaryAreaVisible";b:1;s:12:"welcomeGuide";b:0;}s:9:"_modified";s:24:"2023-12-23T06:36:37.366Z";}') ;
 
 #
 # End of data contents of table `wp_usermeta`
